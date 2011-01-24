@@ -1,4 +1,4 @@
-def automain(func):
+def main(func):
     import inspect
     parent = inspect.stack()[1][0]
     name = parent.f_locals.get('__name__', None)

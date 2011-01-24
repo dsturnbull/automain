@@ -2,6 +2,6 @@
 
 from automain import *
 
-@automain
+@main
 def main():
     print 'works!'
